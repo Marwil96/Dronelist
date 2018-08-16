@@ -151,8 +151,9 @@ h1 h2 h3 {
 }
 @media (min-width: 1500px) {
 	.landingpageTextContainer {
-    width: 30%;
-    /* height: 80vh; */
+    width: 40%;
+    height:unset;
+    margin-top:unset;
     align-self: center;
     flex-direction: column;
 }
