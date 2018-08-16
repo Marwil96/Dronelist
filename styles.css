@@ -149,6 +149,14 @@ h1 h2 h3 {
 	width:40%;
 	margin-left:10%;
 }
+@media (min-width: 1500px) {
+	.landingpageTextContainer {
+    width: 30%;
+    /* height: 80vh; */
+    align-self: center;
+    flex-direction: column;
+}
+	}
 @media screen and (max-width: 872px) {
   .landingPageContainer {
   	flex-direction:column;
